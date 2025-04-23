@@ -25,6 +25,7 @@ body {
     border-radius: 5px;
     margin: 0px ;
 	padding: 10px;
+	transition: transform 0.3s ease;
 }
 a {
 	text-decoration: none;	
@@ -33,7 +34,9 @@ a {
 a:link, a:visited {
 	color: #4a90b1;
 }
-
+.postagem:hover {
+	transform: scale(1.01);
+}
 a:hover {
 	color: #023750;
 	text-decoration: none;
@@ -51,7 +54,7 @@ a:hover {
 }
 
 h1 {
-	color: #ffffff;
+	color: 	#ffffff;
 	font-size: 2.5em;
 }
 
