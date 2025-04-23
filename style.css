@@ -19,15 +19,6 @@ body {
 	text-align: center;
 }
 
-
-.img img {
-    max-width: 10vw;
-    height: auto;
-    border-radius: 5px;
-    margin: 0px ;
-	padding: 10px;
-	transition: transform 0.3s ease;
-}
 a {
 	text-decoration: none;	
 }
@@ -103,7 +94,7 @@ width:100% ;
     justify-content: space-around;
     align-items: center;
     width:500px;
-	height:600px;
+	height:700px;
 	border-radius: 50px;
 	margin-bottom: 10px;
 	background-color: #c9d2dd;
@@ -167,6 +158,15 @@ footer p{
 @media (max-width: 500px){
 	.img{
 		width: 300px;
-		height: 400px;
+		height: 550px;
+	}
+}
+@media (max-width: 350px){
+	.img{
+		width: 150px;
+		height: 350px;
+	}
+	.img p {
+		font-size: 10px;
 	}
 }
