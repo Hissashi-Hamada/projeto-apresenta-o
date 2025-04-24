@@ -18,7 +18,9 @@ header h1{
     margin: 0;
     padding: 0;
     font-weight: bold;
+    justify-content:right;
 }
+
 body{
     background-color: #f0f0f0;
     color: #4b4b4b;
@@ -37,6 +39,10 @@ h1{
     height: auto;
     margin: 0 auto;
     display: block;
+}
+
+nav a:hover {
+background-color: #fff;
 }
 
 h1{
