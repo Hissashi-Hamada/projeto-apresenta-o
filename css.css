@@ -41,8 +41,8 @@ h1{
     display: block;
 }
 
-nav a:hover {
-background-color: #fff;
+.area-cabecalho a{
+    color: #fff;
 }
 
 h1{

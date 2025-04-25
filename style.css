@@ -5,6 +5,7 @@
 	text-align: center;
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
+	
 }
 
 body {
@@ -16,33 +17,18 @@ body {
 .area-cabecalho{
 	background-color: #333;
 }
-
-.area-cabecalho a:link, .area-cabecalho {
-	color: #fafafa;
+a:hover{
+	color: #ffffff;
 }
 
 .area-cabecalho a:hover {
-	color: #000000;
-	background: #CCC;
+	color: #ffffff;
+	background: #ccc;
 	text-decoration: none;
 }
 
-h1 {
-	color: 	#000000;
-	font-size: 2.5em;
-}
-
-h2 {
-	color: #616161;
-}
-
-h3 {
-	color: #000000;
-	padding: 5px;
-}
-
 .branco{
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }	
 
 .section	{
@@ -97,9 +83,8 @@ p{
 	text-align: center;
 }
 
-nav h3 {
-	
-	color: #333;
+.area-cabecalho a {
+	color: #ffffff;
 }
 
 nav{
