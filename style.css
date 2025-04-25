@@ -8,6 +8,14 @@
 	
 }
 
+.container a {
+	text-decoration: none;
+	color: inherit;
+	border: none;
+	outline: none;
+	background: none;
+}
+
 body {
 	font-size: 1em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
