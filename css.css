@@ -69,6 +69,49 @@ footer p{
     margin: 0;
     padding: 0;
 }
+.git{
+	margin: 10px;
+    width: 50px;
+    height: 50px;
+    bottom: 80px;
+    background: url(img/github\ \(2\).png);
+    background-size: 110% 110%;
+    background-repeat: no-repeat;
+}
+.git:hover {
+    transition: 0.8s;
+	background-image: url(img/github\ \(3\).png);
+    background-repeat: no-repeat;
+}
+.whats{
+	margin: 10px;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    background-image: url(img/verde.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.whats a {
+    width: 100%;
+    height: 100%;
+}
+.gmail{
+	margin: 15px;
+    width: 50px;
+    height: 50px;
+    bottom: 80px;
+    background: url(img/gmail.png);
+    background-size: 110% 110%;
+    background-repeat: no-repeat;
+}
+.icon{
+	display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
 
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
     display: flex
