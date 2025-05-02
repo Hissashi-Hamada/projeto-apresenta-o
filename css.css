@@ -44,6 +44,11 @@ h1{
 .area-cabecalho a{
     color: #fff;
 }
+.area-cabecalho a:hover {
+	color: #ffffff;
+	background: #ccc;
+	text-decoration: none;
+}
 a{
     color: #007bff;
 }
